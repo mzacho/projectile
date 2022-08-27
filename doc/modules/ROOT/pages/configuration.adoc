@@ -14,7 +14,7 @@ known as the `native indexing method`) and the other two (`hybrid` and
 `alien`) rely on external commands like `find`, `git`, etc to
 obtain the list of files in a project.
 
-The `alien` indexing method optimizes to the limit the speed of
+The `alien` indexing method optimizes to limit the speed of
 the `hybrid` indexing method.  This means that Projectile will not do
 any processing or sorting of the files returned by the external commands
 and you're going to get the maximum performance possible.  This behaviour
